@@ -1,0 +1,53 @@
+.wrapper_two {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  .business {
+    display: flex;
+    flex-direction: column;
+    // gap: 16px;
+    h1 {
+      font-family: Inter;
+      width: 815px;
+      font-weight: 600;
+      font-style: Semi Bold;
+      font-size: 45px;
+      line-height: 115%;
+      letter-spacing: -3%;
+      vertical-align: middle;
+      background: linear-gradient(88.33deg, #001914 32.65%, #69958c 98.59%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    p {
+      font-family: Inter;
+      font-weight: 500;
+      font-style: Medium;
+      font-size: 16px;
+      line-height: 166%;
+      letter-spacing: -2%;
+      vertical-align: middle;
+      color: #000;
+      width: 594px;
+    }
+  }
+  .testimonial {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    border: 1px solid blue;
+    .testimonial_one,
+    .testimonial_two,
+    .testimonial_three {
+      width: 100%;
+      .testimonial_img {
+        min-height: 651px;
+        border-radius: 40px;
+        max-width: 100%;
+        background-color: #e8dabd;
+        object-fit: cover;
+        display: block;
+      }
+    }
+  }
+}

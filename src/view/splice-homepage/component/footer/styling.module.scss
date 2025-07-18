@@ -1,0 +1,111 @@
+.wrapperFooter {
+  max-height: 392px;
+  width: 100%;
+  background-color: #105e55;
+  border-radius: 40px;
+  margin-top: 60px;
+  .spacing {
+    padding: 4em 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .top {
+      display: flex;
+      justify-content: space-between;
+      //   align-items: center;
+      //   height: 161px;
+      flex-wrap: wrap;
+      width: 100%;
+
+      .content {
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+        .headerFooter {
+          display: flex;
+          gap: 8px;
+          flex-direction: column;
+          p {
+            width: 291px;
+            font-family: Inter;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 14px;
+            line-height: 135%;
+            letter-spacing: -2%;
+            color: #ffffff;
+          }
+        }
+        .bottomFooter {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          p {
+            font-family: Inter;
+            font-weight: 400;
+            font-style: Book;
+            font-size: 14px;
+            line-height: 135%;
+            letter-spacing: -3%;
+            color: #fff;
+          }
+        }
+      }
+      .second {
+        display: flex;
+        align-items: center;
+        gap: 120px;
+
+        .topContent {
+          color: #fff;
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+          //   align-items: center;
+          h4 {
+            font-family: Inter;
+            font-weight: 700;
+            font-style: Bold;
+            font-size: 16px;
+            line-height: 135%;
+            letter-spacing: -2%;
+            .content,
+            .legal,
+            .social {
+              display: flex;
+              gap: 8px;
+              padding: 0;
+              margin: 0;
+              li {
+                font-family: Inter;
+                font-weight: 400;
+                font-style: Regular;
+                font-size: 14px;
+                // line-height: 135%;
+                // letter-spacing: -2%;
+              }
+            }
+          }
+        }
+      }
+    }
+    .line {
+      margin-top: 50px;
+      border: 1px solid #fff;
+      opacity: 6%;
+    }
+    .bottom {
+      padding-top: 15px;
+      p {
+        font-family: Inter;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        line-height: 166%;
+        letter-spacing: -2%;
+        color: #fff;
+      }
+    }
+  }
+}

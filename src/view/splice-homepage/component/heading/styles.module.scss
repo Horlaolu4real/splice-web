@@ -1,0 +1,263 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  .wrapper {
+    background-image: url("../../../../../public/Image_fx\ \(1\)\ 1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+    min-height: 652px;
+    width: 100%;
+    position: relative;
+    .download {
+      position: absolute;
+      top: 369px;
+      left: 84px;
+      // width: 50%;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      h1 {
+        font-family: Inter;
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 45px;
+        line-height: 115%;
+        letter-spacing: -3%;
+        vertical-align: middle;
+        color: #fff;
+        height: 104px;
+        width: 522px;
+      }
+      button {
+        width: 223px;
+        border-radius: 1000px;
+        height: 60px;
+        background-color: #ffffffcc;
+        font-family: Inter;
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 14px;
+        line-height: 135%;
+        letter-spacing: -1%;
+        border: none;
+      }
+    }
+  }
+  .wrapper_two {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    .buisness {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      h1 {
+        font-family: Inter;
+        width: 815px;
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 45px;
+        line-height: 115%;
+        letter-spacing: -3%;
+        vertical-align: middle;
+        background: linear-gradient(88.33deg, #001914 32.65%, #69958c 98.59%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      h3 {
+        width: 593px;
+        // height: 54px;
+        font-family: Inter;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        line-height: 166%;
+        letter-spacing: -2%;
+        vertical-align: middle;
+        color: #4f4f4f;
+      }
+      .header_txt {
+        width: 634px;
+        font-family: Inter;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        line-height: 166%;
+        letter-spacing: -2%;
+        color: #656565;
+      }
+      button {
+        border-radius: 1000px;
+        width: 223px;
+        height: 60px;
+        border: none;
+        background-color: #003c36;
+        color: #fff;
+      }
+    }
+    .spliceImage {
+      background-image: url("../../../../../public/dashboard-image.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      border-radius: 40px;
+      height: 652px;
+    }
+    .spliceVideo {
+      background-image: url("../../../../../public/Capture\ d’écran\ 2025-06-23\ à\ 14.27.12\ 1.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      border-radius: 40px;
+      height: 652px;
+    }
+    .gridImage {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      width: 100%;
+      .flx_one {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+      .flx_two {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+    }
+    .simplify {
+      background-image: url("../../../../../public/simplify-image.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      min-height: 652px;
+      border-radius: 40px;
+      position: relative;
+      .txt {
+        position: absolute;
+        top: 284px;
+        left: 84px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        h1 {
+          font-family: Inter;
+          font-weight: 600;
+          font-style: Semi Bold;
+          font-size: 45px;
+          line-height: 115%;
+          letter-spacing: -3%;
+          vertical-align: middle;
+          color: #fff;
+          width: 522px;
+        }
+        p {
+          font-family: Inter;
+          font-weight: 500;
+          font-style: Medium;
+          font-size: 16px;
+          line-height: 166%;
+          letter-spacing: -2%;
+          vertical-align: middle;
+          color: #fff;
+          width: 440px;
+        }
+        button {
+          background-color: #ffffffcc;
+          border-radius: 1000px;
+          width: 223px;
+          height: 60px;
+          font-family: Inter;
+          font-weight: 600;
+          font-style: Semi Bold;
+          font-size: 16px;
+          line-height: 135%;
+          letter-spacing: -1%;
+          color: #7d8184;
+          border: none;
+        }
+      }
+    }
+    .brand_flx {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      width: 100%;
+      .imageContainer {
+        width: 100%;
+        min-height: 670px;
+        overflow: hidden;
+        border-radius: 40px;
+        .one,
+        .two {
+          object-fit: cover;
+        }
+      }
+    }
+    .testemonial {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      gap: 24.8px;
+      .testemonial_one {
+        width: 100%;
+        height: 436px;
+        overflow: hidden;
+        position: relative;
+        border-radius: 21px;
+        .testimonial {
+          object-fit: cover;
+          height: 100%;
+          display: block;
+        }
+        .header {
+          position: absolute;
+          width: 361px;
+          bottom: 20px;
+          left: 21.7px;
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+          .topHeader {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            h4 {
+              font-family: Inter;
+              font-weight: 700;
+              font-style: Bold;
+              font-size: 16.53px;
+              line-height: 100%;
+              letter-spacing: -5%;
+              color: #fff;
+            }
+            p {
+              font-family: Inter;
+              font-weight: 700;
+              font-style: Bold;
+              font-size: 16.53px;
+              line-height: 100%;
+              letter-spacing: -7%;
+              color: #ffffffb8;
+            }
+          }
+
+          h3 {
+            font-family: Inter;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 16.53px;
+            line-height: 100%;
+            letter-spacing: -5%;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+}
