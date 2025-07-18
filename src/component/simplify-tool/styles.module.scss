@@ -1,0 +1,54 @@
+.simplify {
+  background-image: url("../../../public//simplify-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 652px;
+  border-radius: 40px;
+  position: relative;
+  opacity: 80%;
+  .txt {
+    position: absolute;
+    top: 284px;
+    left: 84px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    h1 {
+      font-family: Inter;
+      font-weight: 600;
+      font-style: Semi Bold;
+      font-size: 45px;
+      line-height: 115%;
+      letter-spacing: -3%;
+      vertical-align: middle;
+      color: #fff;
+      width: 522px;
+    }
+    p {
+      font-family: Inter;
+      font-weight: 500;
+      font-style: Medium;
+      font-size: 16px;
+      line-height: 166%;
+      letter-spacing: -2%;
+      vertical-align: middle;
+      color: #fff;
+      width: 440px;
+    }
+    button {
+      background-color: #ffffffcc;
+      border-radius: 1000px;
+      width: 223px;
+      height: 60px;
+      font-family: Inter;
+      font-weight: 600;
+      font-style: Semi Bold;
+      font-size: 16px;
+      line-height: 135%;
+      letter-spacing: -1%;
+      color: #7d8184;
+      border: none;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.wrapper {
+  padding-top: 2rem;
+  width: 100%;
+  .pricing_image {
+    background-image: url("../../../../../public/pricing-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+    min-height: 652px;
+    width: 100%;
+    opacity: 80%;
+    position: relative;
+    .pricing_txt {
+      position: absolute;
+      top: 340px;
+      left: 84px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      h1 {
+        font-family: Inter;
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 45px;
+        line-height: 110%;
+        letter-spacing: -3%;
+        vertical-align: middle;
+        width: 522px;
+        color: #fff;
+      }
+      p {
+        font-family: Inter;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        line-height: 166%;
+        letter-spacing: -2%;
+        width: 444px;
+        color: #fff;
+      }
+      button {
+        background-color: #ffffffcc;
+        width: 223px;
+        height: 60px;
+        border-radius: 1000px;
+        font-family: Inter;
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 14px;
+        line-height: 135%;
+        letter-spacing: -1%;
+        color: #989585;
+        border: none;
+      }
+    }
+  }
+}

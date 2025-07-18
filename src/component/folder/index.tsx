@@ -17,12 +17,12 @@ export interface Product {
   doctor: string;
   ceo: string;
 }
-export interface Resource {
+export interface ResourceProps {
   img: StaticImageData | string;
   txt: string;
   para: string;
 }
-export interface Listing {
+export interface ListingProps {
   image: StaticImageData | string;
   description: string;
   txt: string;
@@ -158,7 +158,7 @@ export const categories: Product[] = [
   },
 ];
 
-export const resource: Resource[] = [
+export const resource: ResourceProps[] = [
   {
     img: source,
     txt: "From Favour to Founder: How Layo Ogunbanwo Turned a Simple Act of Support Into a Platform Powering Africa’s Beauty Industry",
@@ -171,7 +171,7 @@ export const resource: Resource[] = [
   },
 ];
 
-export const listing: Listing[] = [
+export const listing: ListingProps[] = [
   {
     image: one,
     description:

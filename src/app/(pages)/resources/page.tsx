@@ -1,11 +1,13 @@
 import React from "react";
-import Resource from "@/view/resource/index";
+import ResourceParent from "@/view/resource";
 
 const page = () => {
   return (
     <>
-      <Resource />
+      <ResourceParent />
     </>
+
+    // <Resource />
   );
 };
 

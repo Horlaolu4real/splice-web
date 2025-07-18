@@ -1,14 +1,10 @@
 import React from "react";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import styles from "./styles.module.scss";
+import { ResourceProps } from "../folder";
 
-export interface Resource {
-  img: StaticImageData | string;
-  txt: string;
-  para: string;
-}
 
-const Resource: React.FC<Resource> = ({ img, txt, para }) => {
+const ResourceCard: React.FC<ResourceProps> = ({ img, txt, para }) => {
   return (
     <>
       <div className={styles.wrapper}>
@@ -22,4 +18,4 @@ const Resource: React.FC<Resource> = ({ img, txt, para }) => {
   );
 };
 
-export default Resource;
+export default ResourceCard;

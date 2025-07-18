@@ -1,12 +1,11 @@
-import React from "react";
-import Resource from "./component/splice-resource";
 
-const File = () => {
+import React from 'react'
+import SpliceResource from './component/splice-resource'
+
+const ResourceParent = () => {
   return (
-    <>
-      <Resource />
-    </>
-  );
-};
+    <SpliceResource />
+  )
+}
 
-export default File;
+export default ResourceParent

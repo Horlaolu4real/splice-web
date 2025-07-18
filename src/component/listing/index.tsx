@@ -1,14 +1,9 @@
 import React from "react";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import styles from "./styles.module.scss";
+import { ListingProps } from "../folder";
 
-export interface Listing {
-  image: StaticImageData | string;
-  description: string;
-  txt: string;
-}
-
-const Listing: React.FC<Listing> = ({ image, description, txt }) => {
+const ListingCard: React.FC<ListingProps> = ({ image, description, txt }) => {
   return (
     <>
       <div>
@@ -24,4 +19,4 @@ const Listing: React.FC<Listing> = ({ image, description, txt }) => {
   );
 };
 
-export default Listing;
+export default ListingCard;

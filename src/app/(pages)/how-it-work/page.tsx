@@ -1,11 +1,9 @@
 import React from "react";
-import How from "@/view/how-it-work'/index";
+import Header from "@/view/how-it-work'/component/header";
 
 const page = () => {
   return (
-    <>
-      <How />
-    </>
+    <Header />
   );
 };
 
